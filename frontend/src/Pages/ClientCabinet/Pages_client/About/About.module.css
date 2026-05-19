@@ -1,0 +1,115 @@
+.form {
+    background-color: #f3f0ff;
+    padding-top: 60px;
+    border-radius: 15px;
+    width: 78rem;
+    margin: 0 auto;
+  }
+  
+  .formGroup {
+    margin-bottom: 15px;
+    display: grid;
+  }
+  
+  .label {
+    display: flex;
+    font-family: "DM Sans",sans-serif;
+    color: rgba(93, 90, 136, 1);
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-weight: 700;
+    font-size: 28px;
+    margin-left: 60px;
+    
+  }
+  
+  .input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    background-color: white;
+    font-size: 24px;
+    font-family: "DM Sans",sans-serif;
+    width: 37.5rem;
+    border-style: none;
+    margin-left: 60px;
+    margin-bottom: 1.5rem;
+    color:rgba(93, 90, 136, 1) ;
+    box-sizing: border-box; /** позволит добавить padding */
+    padding: 1.5rem;
+  }
+  
+  .inputBlock {
+    font-family: "DM Sans",sans-serif;
+    font-weight: 700;
+    display: inline-block;
+    font-size: 24px;
+    color: rgba(93, 90, 136, 1);
+    padding: 10px 10px;
+    margin: 5px;
+    margin-left: 1rem;
+    background-color:rgba(230, 235, 244, 1);
+    border-radius: 30px;
+    
+  }
+  
+  .inlineInputs {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    border-radius: 30px;
+    margin-left: 60px;
+    margin-bottom: 1.5rem;
+    width: 1110px;
+    height: 62px;
+    
+  }
+  
+  .inputHalf {
+    flex: 1;
+    min-width: calc(50% - 20px);
+  }
+  
+  .inputFull {
+    width: 100%;
+  }
+  
+  .addButton {
+    display: inline-block;
+    padding: 5px 10px;
+    margin-top: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    width: 301px;
+    height: 45px;
+    margin-left: 60px;
+    margin-bottom: 2rem;
+    font-size: 24px;
+  }
+  
+  .addButton:hover {
+    background-color: #45a049;
+  }
+  
+  .submitButton {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 68px;
+    margin-left: 58px;
+    margin-bottom: 36px;
+    background-color: rgba(93, 90, 136, 1);
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 24px;
+    width: 470px;
+  }
+  
+  .submitButton:hover {
+    background-color: rgb(66, 62, 130);
+  }

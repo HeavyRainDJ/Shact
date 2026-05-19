@@ -1,0 +1,96 @@
+
+.main_page{
+    display: grid;
+}
+
+.all_block{
+    display: flex;
+}
+
+.image{
+    display: inline-block;
+    width: 789px;
+    height: 789px;
+    margin-left: 6.875rem;
+}
+.right_block{
+    display: flex;
+    flex-direction: column;
+}
+
+.shact_text{
+    font-family: "DM Sans";
+    margin-top: 100px;
+    margin-left: 40px;
+    font-weight: 900;
+    font-size: 56px;
+    color:  rgba(93, 90, 136, 1);
+    height: 135px;
+    width: 730px;
+}
+.shact_text_information{
+    display: grid;
+    font-family: "DM Sans", sans-serif;
+    margin-left: 70px;
+    margin-top: 40px;
+    font-weight: 400 ;
+    font-size: 22px;
+    color:  rgba(104, 100, 155, 1);
+    height: 60px;
+    width: 690px;
+    gap: 40px;
+}
+.bold {
+    font-weight: 900;
+    color: rgba(104, 100, 155, 1);
+}
+
+.button1{
+    font-family: "DM Sans", sans-serif;
+    text-align: center;
+    font-size: 22px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    margin-left: 25px;
+    width: 115px;
+    height: 52px;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 30px ;
+    color: rgba(93, 90, 136, 1);
+    border-color: rgba(212, 210, 227, 1);
+    border-style: solid;
+    &:hover{
+        opacity: 0.7;
+    }
+    &:active{
+        opacity: 1.2;
+    }
+}
+.button2{
+    font-family: "DM Sans", sans-serif;
+    text-align: center;
+    font-size: 22px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    margin-left: 25px;
+    width: 220px;
+    height: 52px;
+    background-color: rgba(93, 90, 136, 1);
+    border-radius: 30px ;
+    color: rgba(255, 255, 255, 1);
+    border-color: rgba(93, 90, 136, 1) ;
+    border-style: solid;
+
+    &:hover{
+        opacity: 0.7;
+    }
+    &:active{
+        opacity: 1.2;
+        transition: background-color 0.5s;
+    }
+}
+.claster_buttons{
+    flex-direction: row;
+    margin-top: 220px;
+    margin-left: 45px;
+}

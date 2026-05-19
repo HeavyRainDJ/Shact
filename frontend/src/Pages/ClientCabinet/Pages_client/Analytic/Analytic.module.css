@@ -1,0 +1,101 @@
+.form{
+    width: auto;
+    height: auto;
+    background-color: rgba(242, 241, 250, 1);
+    border-radius: 30px;
+    display: flex;
+}
+.form_graph{
+    width: 38.3rem;
+    height: 28.125rem;
+    background-color: rgba(93, 90, 136, 1);
+    border-radius: 30px;
+    margin-top: 1.3rem ;
+    padding-left: 1rem;
+    padding-top: 1rem;
+}
+.form_graph1{
+    width: 77.75rem;
+    height: 28.125rem;
+    background-color: rgba(93, 90, 136, 1);
+    border-radius: 30px;
+    margin-top: 1.3rem ;
+    margin-bottom: 3rem;
+    margin-right: 2rem;
+}
+.stats_grid {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 600px;
+    margin: auto;
+    margin-top: 1.3rem ;
+}
+.stats_item {
+    background-color: #605D8B;
+    color: white;
+    border-radius: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    height: 13.4rem;
+    width: 13.4rem;
+    
+}
+.information_data{
+    font-size: 20px;
+    font-family: "DM Sans", sans-serif;
+    margin-bottom: 0.5rem;
+    color: white;
+}
+.information_data_client{
+    margin-top: 2.5rem;
+    font-size: 1.5rem;
+    color: white;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 700;
+}
+.stats_item_top{
+    font-family: "DM Sans", sans-serif;
+    background-color: #605D8B;
+    color: white;
+    border-radius: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    height: 13.4rem;
+    width: 27.75rem;
+    grid-column: span 2;
+
+}
+.lo{
+    padding: 0;
+    margin: 0;
+}
+.il{
+    font-family: "DM Sans", sans-serif;
+    font-size: 1.2rem;
+    text-align: left;
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+    margin-left:3.5rem ;
+}
+.title_analytic{
+    font-family: "DM Sans", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: rgba(93, 90, 136, 1);
+}
+.form_right{
+    display: flex;
+    margin-bottom: 1.5rem;
+}
+.form_left{
+    margin-left: 5rem;
+    margin-top: 3.8rem;
+    display: grid;
+}
+.stolbik{
+    margin-left: 5rem;
+    margin-top: 3rem;
+}

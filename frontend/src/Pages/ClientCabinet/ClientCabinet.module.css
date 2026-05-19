@@ -1,0 +1,56 @@
+.page {
+    display: grid;
+}
+
+.cabinet_page {
+    margin-top: 2rem;
+    display: flex;
+    margin-bottom: 15rem;
+}
+
+.cabinet_page_left {
+    margin-left: 2.3rem;
+    margin-right: 4.1rem;
+}
+
+.cabinet_page_right {
+    display: flex;
+}
+
+.form_swapper {
+    margin-top: 2rem;
+    width: 22.5rem;
+    height: 16.75rem;
+    border-radius: 30px;
+    background-color: rgba(242, 241, 250, 1);
+    display: grid;
+}
+
+.logo_client {
+    width: 15.625rem;
+    height: 15.625rem;
+    border-radius: 50%;
+    margin-left: 3.5rem;
+    cursor: pointer;
+    object-fit: cover;
+}
+
+.avatar_input {
+    display: none;
+}
+
+.form_swapper_buttons {
+    height: min-content;
+    width: auto;
+    margin: auto;
+    font-size: 24px;
+    border-style: none;
+    font-family: "DM Sans", sans-serif;
+    background-color: transparent;
+    color: rgba(93, 90, 136, 1);
+    font-weight: 400;
+}
+
+.form_swapper_buttons.active {
+    font-weight: 700;
+}

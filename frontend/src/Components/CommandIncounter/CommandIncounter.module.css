@@ -1,0 +1,18 @@
+.palka{
+    width: 1.8rem;
+    height: 0.15rem;
+    background-color: white;
+    border-radius: 30px;
+    position: relative;
+    transform: rotate(130deg);
+}
+.top_count{
+    position: relative;
+}
+.bottom_count{
+    position: relative;
+    left: 1rem;
+}
+.counter{
+    margin-right: 2rem;
+}

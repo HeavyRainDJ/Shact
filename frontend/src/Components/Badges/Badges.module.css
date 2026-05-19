@@ -1,0 +1,33 @@
+@import url(https://db.onlinewebfonts.com/c/55c75572ae1d9f96d61851294e1698ec?family=ALS+Sector+Bold+Bold);
+
+.badges {
+    width: auto;
+    height: 1.5rem;
+    background-color: rgba(173, 171, 194, 1);
+    border-radius: 30px;
+    margin-top: auto;
+    display: flex;
+    align-items: center; 
+    padding: 3px 10px; 
+  }
+  
+  .badges_text {
+    font-family: 'JetBrains Mono Variable', monospace;
+    font-size: 16px;
+    color: rgba(93, 90, 136, 1);
+    line-height: 1.5rem; 
+    font-weight: 700;
+  }
+  
+  .badge {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .badges + .badges {
+    margin-left: 0.625rem;
+  }
+  
+  .firstBadge {
+    margin-left: 0;
+  }

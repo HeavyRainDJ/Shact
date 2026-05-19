@@ -1,0 +1,118 @@
+.page{
+    display: grid;
+}
+.container_registration{
+    display: grid;
+    width: auto;
+    height: auto;
+}
+
+.form{
+    background-color: rgba(242, 241, 250, 1);
+    width: 55rem ;
+    height: auto;
+    margin: 2rem auto;
+    border-style: none;
+    border-radius: 30px;
+}
+.head_word{
+    margin: 2.5rem auto;
+    font-family: "DM Sans",sans-serif;
+    width: 20rem;
+    font-size: 50px;
+    color: rgba(93, 90, 136, 1);
+}
+
+
+.wrapper_inputs{
+    width: auto;
+    margin: 2rem auto;
+    height: auto;
+    display: grid;
+    gap: 0px;
+}
+.input{
+    position: relative;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 30px;
+    width: 35.875rem;
+    border-style: none;
+    outline:none;
+    height: 4.5rem;
+    font-family: "DM Sans",sans-serif;
+    font-size: 20px;
+    color: rgba(93, 90, 136, 1);
+    box-sizing: border-box; /** позволит добавить padding */
+    padding: 1.5rem;
+}
+input::placeholder{
+    padding-left: 1.5rem;
+    font-family: "DM Sans",sans-serif;
+    color: rgba(173, 171, 195, 1);
+    position: relative;
+    z-index: 1;
+    right: 1.5rem;
+}
+p{
+    position: relative;
+    font-family: "DM Sans",sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgba(93, 90, 136, 1);
+    margin:0.8rem auto;
+}
+label{
+    margin: 0rem auto;
+}
+
+.button_sent{
+    font-family: "DM Sans", sans-serif;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    margin: 3.8rem auto 2rem;
+    width: 32.25rem;
+    height: 4.2rem;
+    background-color: rgba(93, 90, 136, 1);
+    border-radius: 30px ;
+    color: rgba(255, 255, 255, 1);
+    border-color: rgba(93, 90, 136, 1) ;
+    border-style: solid;
+    &:hover{
+        opacity: 0.7;
+    }
+    &:active{
+        opacity: 1.2;
+    }
+}
+
+.checkbox{
+    position: relative;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 30px;
+    width: 1.75rem;
+    border-radius: 2;
+    border-color: rgba(209, 213, 219, 1);
+    height: 1.75rem;
+}
+.container_checkbox{
+    display: flex;
+    margin: 0 10rem;
+    margin-top: 2rem;
+}
+.info_text{
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    color: rgba(93, 90, 136, 1);
+    width: 28rem ;
+    height: 3.4rem;
+    margin-left: 1rem;
+    font-weight: 500;
+    margin-top: 0.2rem;
+}
+
+.rules_link{
+    color: rgba(60, 49, 219, 1);
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+}

@@ -1,0 +1,116 @@
+.footer{
+    display: grid;
+    width: auto;
+    height: 18.75rem;
+    background-color: white;
+}
+.container_footer{
+    margin-top: 1.3rem;
+    display: flex;
+    height: 15.6rem;
+    background-color: white;
+    width: 115rem;
+}
+
+.list{
+    font-family: "DM Sans", sans-serif;
+    width: 30rem;
+    list-style: none;
+    padding-left: 0;
+    color: rgba(75, 85, 99, 1);
+    font-size: 18px;
+    margin:0px auto 0px auto;
+}
+
+
+.list_1{
+    font-family: "DM Sans", sans-serif;
+    width: 15.3rem;
+    list-style: none;
+    padding-left: 0;
+    color: rgba(75, 85, 99, 1);
+    font-size: 18px;
+    margin:0px auto 0px auto;
+}
+
+.list_2{
+    font-family: "DM Sans", sans-serif;
+    width: 15.125rem;
+    list-style: none;
+    padding-left: 0;
+    color: rgba(75, 85, 99, 1);
+    font-size: 18px;
+    margin:0px auto 0px auto;
+}
+
+.list_3{
+    font-family: "DM Sans", sans-serif;
+    width: 16.5rem;
+    list-style: none;
+    padding-left: 0;
+    color: rgba(75, 85, 99, 1);
+    font-size: 18px;
+    margin:0px auto 0px auto;
+    line-height: 150%;
+}
+
+.list_4{
+    font-family: "DM Sans", sans-serif;
+    width: 13.75rem;
+    list-style: none;
+    padding-left: 0;
+    color: rgba(75, 85, 99, 1);
+    font-size: 18px;
+    margin:0px auto 0px auto;
+    line-height: 150%;
+}
+
+
+li{
+    margin-top: 14px;
+}
+
+
+h4{
+    font-family: "DM Sans",sans-serif;
+    font-weight: bold;
+    color: rgba(93, 90, 136, 1);
+    font-size: 20px;
+    margin:0px auto 0px auto;
+}
+.right_container{
+    display: flex;
+    margin-top: 0.9rem;
+}
+.left_container{
+    display: grid;
+    margin-right: 4.5rem;
+    margin-left: 2rem;
+
+}
+a{
+    text-decoration: none;
+    color: rgba(75, 85, 99, 1);
+    font-family: "DM Sans",sans-serif;
+}
+.Bauman_logo{
+    width: 10.75rem ;
+    height: 9.75rem;
+    margin-left: 1.3rem;
+}
+.image{
+    width: 13rem;
+    height: 4rem;
+}
+.copy{
+    font-family: "DM Sans",sans-serif;
+    color: rgba(93, 90, 136, 1);
+    font-size: 16px;
+    font-weight: 300;
+    margin-left: 2rem;
+}
+
+.info{
+    display: flex;
+    margin-left: 2rem;
+}

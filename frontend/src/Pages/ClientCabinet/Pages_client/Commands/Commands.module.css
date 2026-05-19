@@ -1,0 +1,133 @@
+.form {
+    width: 83.75rem;
+    height: auto;
+    background-color: rgba(242, 241, 250, 1);
+    border-radius: 30px;
+    padding: 3.875rem;
+    box-sizing: border-box;
+}
+
+.text_on_commands {
+    font-family: "DM Sans", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: rgba(93, 90, 136, 1);
+    margin: 3.875rem 5rem;
+}
+
+.form_for_post {
+    width: 76.125rem;
+    height: auto;
+    margin: 2rem 3rem;
+}
+
+.create_team_button_wrapper {
+    justify-content: center;
+    margin-left: 5rem;
+}
+
+.create_team_button {
+    border-radius: 30px;
+    background-color: rgba(93, 90, 136, 1);
+    font-family: "DM Sans", sans-serif;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    width: 290px;
+    height: 58.6px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 3rem;
+}
+
+.create_team_button:hover {
+    background-color: rgba(93, 90, 136, 0.9);
+}
+
+.popup_inner {
+    text-align: center;
+    color: rgba(93, 90, 136, 1);
+}
+
+.zagolovoka {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+/* Structured styles for form elements */
+.label {
+    display: block;
+    text-align: left;
+    font-family: "DM Sans", sans-serif;
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.input,
+.textarea,
+.select {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    font-size: 20px;
+    text-align: left;
+    border: 1px solid #ccc;
+}
+
+.textarea {
+    resize: vertical;
+}
+
+.badges_wrapper {
+    margin-top: 10px;
+    text-align: left;
+}
+
+.badge_label {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 18px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 700;
+}
+
+.badge_input {
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.dropzone {
+    border: 2px dashed #cccccc;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.submit_button,
+.cancel_button {
+    width: auto;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 30px;
+    background-color: rgba(93, 90, 136, 1);
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-family: "DM Sans", sans-serif;
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+.submit_button:hover,
+.cancel_button:hover {
+    background-color: rgba(93, 90, 136, 0.9);
+}
