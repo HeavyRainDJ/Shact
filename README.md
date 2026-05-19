@@ -18,7 +18,7 @@
 ## Команда разработки проекта
 **Komanda_Crytie_Chyvaki (SHS-42B)**
 1. *Логинов Виктор Николаевич* - Frontend, Analytic.
-2. *Самилык Артём Андреевич* - Backend, UX/UI-Design.
+2. *Самилык Артём Андреевич* - Backend.
 
 ## Визуальная состовляющая проекта
 -[ ] [Дизайн SHACT](https://www.figma.com/file/aqjLhgcIKiuYThP3l8dPkW/SHACT-WEB?type=design&node-id=0%3A1&mode=design&t=KtRv0fdrl0eurxby-1)
