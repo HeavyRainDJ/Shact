@@ -20,9 +20,6 @@
 1. *Логинов Виктор Николаевич* - Frontend, Analytic.
 2. *Самилык Артём Андреевич* - Backend.
 
-## Визуальная состовляющая проекта
--[ ] [Дизайн SHACT](https://www.figma.com/file/aqjLhgcIKiuYThP3l8dPkW/SHACT-WEB?type=design&node-id=0%3A1&mode=design&t=KtRv0fdrl0eurxby-1)
-
 ## Roadmap
 - [ ] **Реализация дизайн-проекта** **«SHACT»** - разработка уникального дизайна для Web-сервиса «SHACT»
 - [ ] **Реализация Frontend(Лендинг и вёрстка)_№1** - вёрстка разработанного дизайна
