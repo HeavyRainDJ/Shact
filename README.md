@@ -18,10 +18,7 @@
 ## Команда разработки проекта
 **Komanda_Crytie_Chyvaki (SHS-42B)**
 1. *Логинов Виктор Николаевич* - Frontend, Analytic.
-2. *Самилык Артём Андреевич* - Backend, UX/UI-Design.
-
-## Визуальная состовляющая проекта
--[ ] [Дизайн SHACT](https://www.figma.com/file/aqjLhgcIKiuYThP3l8dPkW/SHACT-WEB?type=design&node-id=0%3A1&mode=design&t=KtRv0fdrl0eurxby-1)
+2. *Самилык Артём Андреевич* - Backend.
 
 ## Roadmap
 - [ ] **Реализация дизайн-проекта** **«SHACT»** - разработка уникального дизайна для Web-сервиса «SHACT»
@@ -32,10 +29,6 @@
 - [ ] **Тестирование функциональность Backend и Frontend при совместной работе** - Функциональное, модульное, нагрузочное тестирование Web-сервиса.
 - [ ] **Тестовый релиз** - Тестовый релиз, для отладки багов и добавления новых фич.
 - [ ] **Релиз** - Релиз проекта.
-
-## Статус проекта
-- [ ] [Разработка_Дизайна](https://www.figma.com/file/aqjLhgcIKiuYThP3l8dPkW/SHACT-WEB?type=design&node-id=0%3A1&mode=design&t=KtRv0fdrl0eurxby-1)
-- [ ] Вёрстка первоначального дизайна
 
 ## Помощь
 Если у вас возникли какие-либо проблемы при пользование Web-сервиса «SHACT» вы можете обратиться на почту [viktor.loginov.04@mail.ru] 
